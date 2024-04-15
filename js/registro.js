@@ -1,45 +1,45 @@
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('registration-form');
-    const usuariosRegistrados = []; // Lista para almacenar los nombres de usuario registrados
+    const usuariosRegistrados = []; // Lista de almacenamiento de nombres de usuario registrados
 
     form.addEventListener('submit', function(event) {
-        event.preventDefault(); // Evitar el envío del formulario por defecto
+        event.preventDefault(); // Evitar el envío del formulario de serie
 
-        // Obtener los valores del formulario
+        // valores del formulario
         const nombre = document.getElementById('Nombre').value;
         const apellido = document.getElementById('Apellido').value;
         const mensaje = document.getElementById('Mensaje').value;
 
-        // Verificar si se ingresaron tanto el nombre como el apellido
+        // Verificar datos ingresados
         if (!nombre || !apellido) {
             // Mostrar la alerta si falta el nombre o el apellido
             alert('Por favor, ingresa tu nombre y apellido.');
-            return; // Detener la ejecución si falta algún dato
+            return; // no ejecutar si falta algun dato
         }
 
-        // Verificar si el nombre ya está registrado
+        // si el nombre ya esta en el sistema, entonces...
         if (usuariosRegistrados.includes(nombre)) {
             alert('Este usuario ya existe. Por favor, prueba con otro nombre.');
-            return; // Detener la ejecución si el usuario ya existe
+            return;
         }
 
-        // Registrar el nombre de usuario
+        // Registrar nuevo usuario
         usuariosRegistrados.push(nombre);
 
-        // Crear un objeto de usuario con los datos del formulario
+        // Crear un objeto (usuario) con los datos del formulario
         const usuario = {
             nombre: nombre,
             apellido: apellido,
             mensaje: mensaje
         };
 
-        // Mostrar la alerta con el nombre del usuario registrado
+        // Alerta "te pudiste registrar"
         alert(`¡Perfecto ${nombre}! Te has registrado exitosamente en nuestra web.`);
 
-        // Imprimir el usuario en la consola
+        // aparece el usuario en la consola
         console.log('Usuario registrado:', usuario);
 
-        // Limpiar el formulario después de enviar
+        // Recetear datos del formulario
         form.reset();
     });
 });
