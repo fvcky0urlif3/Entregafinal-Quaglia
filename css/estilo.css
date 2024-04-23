@@ -30,6 +30,7 @@ li {
 }
 
 /* ESTILO BOTONES HACHETEMELES */
+
 .hachetemeles {
   font-size: 15px;
   text-decoration: none;
@@ -45,6 +46,9 @@ li {
 .hachetemeles:hover {
   background-color: blueviolet;
 }
+
+
+
 
 /* LOGO SWEET LEAF */
 .logo {
@@ -204,17 +208,16 @@ main {
 }
 /* H1 */
 h1, h2 {
-  color: rgb(60, 75, 44);
+  
   margin-top: 10px;
   font-family: Georgia;
   text-align: center;
   text-decoration: underline;
   margin: 20px 0px;
 }
-
 /* Footer */
 .footer {
-  color: rgb(60, 75, 44);
+ 
   text-align: center;
   padding: 10px;
   border-top: 3px solid rgb(60, 75, 44);
@@ -223,7 +226,7 @@ h1, h2 {
 /* primer parrafo */
 .leyenda1 {
   text-align: center;
-  color: rgb(60, 75, 44);
+  
   margin: 20px;
   font-family: Georgia;
   text-decoration: none;
@@ -237,7 +240,7 @@ h1, h2 {
 /* Texto quienes somos */
 .texto1 {
   text-align: center;
-  color: rgb(60, 75, 44);
+  
   margin: 20px;
   font-family: Georgia;
   text-decoration: none;
@@ -251,7 +254,7 @@ h1, h2 {
 /* Texto ejemplo */
 .texto2 {
   text-align: center;
-  color: rgb(60, 75, 44);
+
   margin: 20px;
   font-family: Georgia;
   text-decoration: none;
@@ -265,7 +268,7 @@ h1, h2 {
 /* h2 la crew */
 .titulo2 {
   text-align: center;
-  color: rgb(60, 75, 44);
+ 
   margin: 20px;
   font-family: Georgia;
   text-decoration: none;
@@ -277,10 +280,10 @@ h1, h2 {
 }
 
 .textofotofinal {
-  color: rgb(60, 75, 44);
+
   margin-top: 20px;
-  border-top: 2px solid rgb(60, 75, 44);
-  border-bottom: 2px solid rgb(60, 75, 44);
+  border-top: 2px solid rgb(10, 121, 97);
+  border-bottom: 2px solid rgb(10, 121, 97);
 }
 
 /* BOTONES DEL BOX */
@@ -346,7 +349,7 @@ input {
   box-sizing: border-box;
   margin: auto;
   background-color: cadetblue;
-  color: rgb(60, 75, 44);
+  color: rgb(10, 121, 97);
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -354,6 +357,7 @@ input {
   cursor: pointer;
   margin-top: 10px;
 }
+ /*estilo mapa fac */
 
 .mapafaction {
   width: 50%;
@@ -361,4 +365,27 @@ input {
   margin-bottom: 20px;
 }
 
-/*# sourceMappingURL=estilo.css.map */
+
+/* Estilos para el botón de modo oscuro */
+#dark-mode-toggle {
+  background-color: transparent;
+  border: firebrick;
+  color: white; /* Color del icono por defecto */ 
+}
+
+/* Estilos para el modo oscuro */
+[data-bs-theme="dark"] {
+  background-color: rgb(62, 28, 3); /* Color de fondo oscuro */
+  color: white; /* Color de texto para el modo oscuro */
+}
+
+/* Estilos para el modo claro */
+[data-bs-theme="light"] {
+  background-color: salmon; /* Color de fondo claro */
+  color: rgb(10, 121, 97); /* Color de texto para el modo claro */
+}
+
+/* Estilo del botón luna/sol */
+#dark-mode-toggle {
+  color: orange;
+}
