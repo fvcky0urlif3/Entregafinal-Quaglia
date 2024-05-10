@@ -1,0 +1,22 @@
+[
+{
+    "id": "buzneg01",
+    "titulo": "Abrigo 01",
+    "imagen": "imgecommerce/hoodies/buzneg01",
+    "categoria": {
+        "nombre": "Abrigos",
+        "id": "abrigos"
+    },
+    "precio": 1000
+},
+{
+    "id": "buzneg02",
+    "titulo": "Abrigo 01",
+    "imagen": "../js/imgecommerce/hoodies/buzneg02.jpg",
+    "categoria": {
+        "nombre": "Abrigos",
+        "id": "abrigos"
+    },
+    "precio": 1000
+}
+]
