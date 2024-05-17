@@ -44,7 +44,7 @@ document.getElementById('dark-mode-toggle').addEventListener('click', toggleDark
 // js para el merch ( use de guia el tutorial carpi en yt adaptado a la sweet :D )
 let productos = [];
 
-fetch("")
+fetch("../js/productos.json")
     .then(response => response.json())
     .then(data => {
         productos = data;

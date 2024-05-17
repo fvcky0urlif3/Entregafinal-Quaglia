@@ -1,22 +1,148 @@
 [
 {
     "id": "buzneg01",
-    "titulo": "Abrigo 01",
-    "imagen": "imgecommerce/hoodies/buzneg01",
+    "titulo": "Hoodie SLC flower power",
+    "imagen": "../img/hoodies/buzneg01.jpg",
     "categoria": {
-        "nombre": "Abrigos",
-        "id": "abrigos"
+        "nombre": "HOODIES",
+        "id": "hoodies"
     },
-    "precio": 1000
+    "precio": 41000
 },
 {
     "id": "buzneg02",
-    "titulo": "Abrigo 01",
-    "imagen": "../js/imgecommerce/hoodies/buzneg02.jpg",
+    "titulo": "Hoodie SLC little hommie",
+    "imagen": "../img/hoodies/buzneg02.jpg",
     "categoria": {
-        "nombre": "Abrigos",
-        "id": "abrigos"
+        "nombre": "HOODIES",
+        "id": "hoodies"
     },
-    "precio": 1000
+    "precio": 51000
+},
+{
+    "id": "capazu01",
+    "titulo": "Cap SLC navy blue",
+    "imagen": "../img/caps/capazu01.jpg",
+    "categoria": {
+        "nombre": "CAPS",
+        "id": "Caps"
+    },
+    "precio": 11000
+},
+{
+    "id": "capbla01",
+    "titulo": "Cap SLC true white",
+    "imagen": "../img/caps/capbla01.jpg",
+    "categoria": {
+        "nombre": "CAPS",
+        "id": "Caps"
+    },
+    "precio": 11000
+},
+{
+    "id": "capblau01",
+    "titulo": "Cap SLC full black out",
+    "imagen": "../img/caps/capneg01.jpg",
+    "categoria": {
+        "nombre": "CAPS",
+        "id": "Caps"
+    },
+    "precio": 12000
+},
+{
+    "id": "griodi01",
+    "titulo": "Grip Odi x SLC Oil slick",
+    "imagen": "../img/grips/griodi01.jpg",
+    "categoria": {
+        "nombre": "GRIPS",
+        "id": "grips"
+    },
+    "precio": 20000
+},
+{
+    "id": "griodi02",
+    "titulo": "Grip Odi x SLC Light blue",
+    "imagen": "../img/grips/griodi02.jpg",
+    "categoria": {
+        "nombre": "GRIPS",
+        "id": "grips"
+    },
+    "precio": 20000
+},
+{
+    "id": "griodi03",
+    "titulo": "Grip Odi x SLC Flat gray",
+    "imagen": "../img/grips/griodi03.jpg",
+    "categoria": {
+        "nombre": "GRIPS",
+        "id": "grips"
+    },
+    "precio": 20000
+},
+{
+    "id": "griodi04",
+    "titulo": "Grip Odi x SLC Blood red",
+    "imagen": "../img/grips/griodi04.jpg",
+    "categoria": {
+        "nombre": "GRIPS",
+        "id": "grips"
+    },
+    "precio": 20000
+},
+{
+    "id": "griodi05",
+    "titulo": "Grip Odi x SLC Classic black",
+    "imagen": "../img/grips/griodi05.jpg",
+    "categoria": {
+        "nombre": "GRIPS",
+        "id": "grips"
+    },
+    "precio": 20000
+},
+{
+    "id": "pedpri01",
+    "titulo": "Primo x SLC Oil slick colorway",
+    "imagen": "../img/pedal/pedpri01.jpg",
+    "categoria": {
+        "nombre": "PEDALES",
+        "id": "pedales"
+    },
+    "precio": 45000
+},
+{
+    "id": "rembla01",
+    "titulo": "SLC true white T",
+    "imagen": "../img/remes/rembla01.jpg",
+    "categoria": {
+        "nombre": "RREMERAS",
+        "id": "remes"
+    },
+    "precio": 25000
+},
+{
+    "id": "rembla01",
+    "titulo": "SLC Deep black T",
+    "imagen": "../img/remes/remneg01.jpg",
+    "categoria": {
+        "nombre": "REMERAS",
+        "id": "remes"
+    },
+    "precio": 25000
+},
+{
+    "id": "remroj01",
+    "titulo": "SLC Blood red T",
+    "imagen": "../img/remes/remroj01.jpg",
+    "categoria": {
+        "nombre": "REMERAS",
+        "id": "remes"
+    },
+    "precio": 25000
+},
+{
+    "id": "dvdxprops",
+    "titulo": "Props x SLC 'Sweet Bike Life'",
+    "imagen": "../img/dvdxprops.jpg",
+    "precio": 10000
 }
 ]
